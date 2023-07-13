@@ -8,9 +8,9 @@ int main (){
     cout << ch1 <<endl;
 
     // Type Casting
-    int ch2 = 'a';
+    int ch2 = 'a';             // same as ch2 = 97
     cout << "ch2 character is type casted to integer value of a = " << ch2 <<endl;
 
-    int ch3 = 'b';
+    int ch3 = 'b';             // same as ch3 = 98
     cout << "ch3 character is type casted to integer value of b = " << ch3 <<endl;
 }
