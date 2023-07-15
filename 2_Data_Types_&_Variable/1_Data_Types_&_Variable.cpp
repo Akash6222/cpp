@@ -8,10 +8,10 @@ int main (){
     char ch = 'a';         // 1 byte -> 8 bit
     cout << ch <<endl;
 
-    bool bol = true;          // 1 bit
+    bool bol = true;       // 1 byte
     cout << bol <<endl;
 
-    float f = 1.2;         // 8 byte -> 64 bit
+    float f = 1.2;         // 4 byte -> 32 bit
     cout << f <<endl;
 
     double d = 1.23;       // 8 byte -> 64 bit
