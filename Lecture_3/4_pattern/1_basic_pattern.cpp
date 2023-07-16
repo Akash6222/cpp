@@ -7,9 +7,9 @@ int main(){
 
     int i = 1;
 
-    while(i<=n){
+    while(i<=n){          // i is for rows
         int j = 1;
-        while(j<=n){
+        while(j<=n){      // j is for columns
             cout<<"*";
             j = j+1;
         }
@@ -17,6 +17,11 @@ int main(){
         i = i+1;
     }
 }
+// j++++++
+// i+
+//  +
+//  +
+//  +
 
 // ***
 // ***
