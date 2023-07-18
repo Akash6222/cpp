@@ -20,7 +20,7 @@ int main(){
         cout<<endl;
         row = row+1;
     }
-
+}
 // 1
 // 23
 // 345
