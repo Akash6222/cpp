@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     int n;
+    cout << "Enter the value of n: ";
     cin >> n;
 
     int i = 1;
@@ -17,3 +18,8 @@ int main(){
         i = i+1;
     }
 }
+
+// 1111
+// 2222
+// 3333
+// 4444
