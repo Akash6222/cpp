@@ -7,14 +7,13 @@ int main(){
     cin >> n;
     
     int row = 1;
-    int count = 1;
 
     while(row<=n){
         int col = 1;
-        int currentCount = count + row - 1;
+        int count = row;
         while(col<=n){
-            cout << currentCount << " ";
-            currentCount = currentCount + 1;
+            cout << count << " ";
+            count = count + 1;
             col = col + 1;
         }
         cout<<endl;
