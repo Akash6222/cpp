@@ -10,14 +10,14 @@ int main(){
 
     while(row<=n){
 
-        int space = row-1; 
+        int space = row-1;   // space = row - 1 to get no space at first while loop 
         while(space){
             cout<<" ";
             space = space -1;
         }
 
         int col = 1;
-        int star = n-row+1;
+        int star = n-row+1;      // 
 
         while(col<=star){
             cout << "*";
