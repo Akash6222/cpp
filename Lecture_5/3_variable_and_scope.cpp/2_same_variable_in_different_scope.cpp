@@ -8,7 +8,7 @@ int main() {
 
     if(true){
         int a = 5;
-        cout<< a <<endl;    //will take a value outoff this if scope
+        cout<< a <<endl;    //will take a value in his if scope
     }
 
     cout<< a <<endl;
