@@ -29,4 +29,4 @@ int main() {
 }
 
 
-// Note : We have stored the ans in int and int range is -2,147,483,648 to 2,147,483,647 if we bypass thois range then same input will be printed
+// Note : We have stored the ans in int and int range is -2,147,483,648 to 2,147,483,647 if we bypass this range then same input will be printed
