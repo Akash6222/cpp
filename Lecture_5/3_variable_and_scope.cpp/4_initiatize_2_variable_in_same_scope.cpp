@@ -9,4 +9,4 @@ int main() {
     int b = 3;           // error: redeclaration of ‘int b
     cout<< b <<endl;      
 
-}/
+}
