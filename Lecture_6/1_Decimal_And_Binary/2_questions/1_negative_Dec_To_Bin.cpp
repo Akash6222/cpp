@@ -17,6 +17,7 @@ int main() {
 
     while(n !=0 ){
 
+        // Bit
         int bit = n & 1;          // to get last bit
 
         ans = (bit * pow(10,i) ) + ans;    // To get value in reverse
