@@ -11,4 +11,6 @@ int main() {
         cout<< a <<endl;    //will take a value outoff this if scope
     }
 
+    cout<< a <<endl;
+
 }
