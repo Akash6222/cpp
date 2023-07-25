@@ -10,6 +10,8 @@ int main() {
 
         case 1:
               cout<< "First" <<endl;
+
+              //break is used to break the switch case
               break;
         
         case 2:
