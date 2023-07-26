@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>
+#include <math.h>          // for pow
 using namespace std;
 
 // To convert decimal number into binary
