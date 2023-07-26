@@ -19,7 +19,7 @@ int main() {
             ans = ans + pow(2, i);
         }
 
-        n = n/10;n                // doing right shift so that last digit will be removed and next digit will be used in while loop
+        n = n/10;                // doing right shift so that last digit will be removed and next digit will be used in while loop
         i++;
     }
     cout<< ans << endl;
