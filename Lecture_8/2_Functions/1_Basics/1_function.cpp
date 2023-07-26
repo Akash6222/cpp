@@ -1,10 +1,10 @@
 # include <iostream>
 using namespace std;
 
-int power(int a, int b){
+int power(int a, int x){    // a^x
 
     int ans = 1;
-    for( int i = 1; i<=b; i++){
+    for( int i = 1; i<=x; i++){
         ans = ans * a;
     }
 
