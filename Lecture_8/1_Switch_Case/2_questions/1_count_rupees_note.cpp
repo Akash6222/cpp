@@ -73,3 +73,6 @@ int main() {
 
     return 0;
 }
+
+
+// This is not the roight way to use switch ....will update this in future
