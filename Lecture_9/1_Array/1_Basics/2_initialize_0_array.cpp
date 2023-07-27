@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int number[10] = {0};    // Initializing the array with some values
+    int number[10] = {0};    // Initializing the array with 0
 
     // Printing all elements of the array
     for (int i = 0; i < 10; i++) {
