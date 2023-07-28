@@ -3,8 +3,10 @@ using namespace std;
 
 int main() {
 
-    int number[10] = {0};    // Initializing the array with 0
-
+    int number[10] = {1};    // Initialize the 1st element to 1 ...not all index initialize to 1
+    
+    cout<< "Printing the whole array : ";
+    
     // Printing all elements of the array
     for (int i = 0; i < 10; i++) {
         cout << number[i] << " ";

@@ -9,6 +9,8 @@ int main() {
         number[i] = 1;
     }
 
+    cout<< "Printing the whole array : ";
+    
     // Printing all elements of the array
     for (int i = 0; i < 10; i++) {
         cout << number[i] << " ";
