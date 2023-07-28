@@ -10,4 +10,7 @@ int main()
         cout << ch[i] << " ";
     }
     cout << endl;
+
+    int sizeChar = sizeof(ch)/sizeof(char);
+    cout << "The size of ch is " << sizeChar << endl;
 }
