@@ -5,7 +5,7 @@ using namespace std ;
 // Min Function
 int getMin(int num[], int n)
 {
-    int min = INT_MAX;
+    int min = INT_MAX;           // using INT_MAX
     for(int i = 0; i<n; i++)
     {
         if (num[i] < min)
@@ -20,7 +20,7 @@ int getMin(int num[], int n)
 // Max Function
 int getMax(int num[], int n)
 {
-    int max = INT_MIN;
+    int max = INT_MIN;            // using INT_MIN
     for(int i = 0; i<n; i++)
     {
         if (num[i] > max)
