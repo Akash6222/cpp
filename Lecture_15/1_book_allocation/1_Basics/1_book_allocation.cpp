@@ -60,3 +60,4 @@ int main()
 
     cout<<"Ans is " << allocateBooks(arr,4,2) <<endl;
 }
+
