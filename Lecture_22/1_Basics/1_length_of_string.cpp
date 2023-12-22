@@ -1,6 +1,17 @@
 #include<iostream>
 using namespace std;
 
+void reverse(char name[], int n){
+    int s=0;
+    int e = n-1;
+
+    while(s<e){
+        swap(name[s++], name[e--]);
+    }
+}
+
+//Leecode questn -> https://leetcode.com/problems/reverse-string/
+
 int getLength(char name[]){
 
     int count = 0;
@@ -20,7 +31,13 @@ int main(){
     
     cout << "Your name is -> "<<name <<endl;   // e,g Akash10 in array .......bascially 10 here means null character
     
+    // Length of string
     cout << "Length of name -> " << getLength(name) << endl;
     
+    // Reverse string
+    int len = getLength(name);
+    reverse(name, len);
+    cout << "Your name in reverse -> "<<name<<endl;
+
     return 0;
 }
