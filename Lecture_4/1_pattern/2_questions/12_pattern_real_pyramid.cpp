@@ -1,51 +1,43 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main(){
+int main() {
+
     int n;
     cout << "Enter the value of n: ";
-    cin >> n;
-    
+    cin>>n;
     int row = 1;
 
-    while( row<= n){
+    while(row <= n) {
 
-        // print space (1st triangle)
-        int count = n - row +1;
-        int col = 1;
-        while(col <= count){
-            cout<<col;
-            col = col + 1;
+        //Print karo space (1st triangle)
+        int space = n - row ;
+        while(space) {
+            cout<<" ";
+            space = space -1;
         }
 
-        // print 1st star
-        int col1 = 1;
-        while(col1<=row-1){
-            cout << "*";
-            col1 = col1 + 1;
+        //print 2nd triangle 
+        int j = 1;
+        while(j <= row ) {
+            cout<<j;
+            j = j + 1;
         }
 
-        // print 2nd star
-        int col2 = 1;
-        while(col2<=row-1){
-            cout<<"*";
-            col2 = col2+1;
-        }
+        //print 3rd triangle
 
-        // print 3rd triangle
-        int col3 = 1;
-        int count1 = n-row+1;
-        while(col3 <= n-row+1){
-            cout<<count1;
-            col3 = col3 + 1;
-            count1 = count1 - 1;
+        int start = row - 1;
+        while(start) {
+            cout<<start;
+            start = start - 1;
         }
 
         cout<<endl;
         row = row + 1;
     }
-
+    return 0;
 }
+
 
 //    1
 //   121
